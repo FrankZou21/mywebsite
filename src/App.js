@@ -1,12 +1,16 @@
 import React from 'react';
-import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div>
+      <section>
         <p>
-          Testing
+          Hello, My name is Frank Zou
         </p>
+        <p>
+          I am an aspiring Full-Stack Web Developer
+        </p>
+      </section>
     </div>
   );
 }
