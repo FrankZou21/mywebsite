@@ -1,16 +1,10 @@
 import React from 'react';
+import Home from "./components/Home.js"
 
 function App() {
   return (
     <div>
-      <section>
-        <p>
-          Hello, My name is Frank Zou
-        </p>
-        <p>
-          I am an aspiring Full-Stack Web Developer
-        </p>
-      </section>
+      <Home />
     </div>
   );
 }
