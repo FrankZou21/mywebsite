@@ -1,0 +1,4 @@
+.aboutLayout {
+  display: flex; 
+  flex-direction: row;
+}

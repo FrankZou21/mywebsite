@@ -1,4 +1,4 @@
-import React, {useState, useEffect, useReducer} from "react";
+import React, {useEffect, useReducer} from "react";
 import "./styles/Home.css"
 
 const backgroundImages = [
@@ -27,7 +27,6 @@ export default function Home() {
     const interval = setInterval(() => {
       if (state.background === backgroundImages[0]) {
         dispatch({type: 'backgroundOne'})
-        console.log(state.background)
       } else if (state.background === backgroundImages[1]){
         dispatch({type: 'backgroundTwo'})
       }
@@ -38,7 +37,9 @@ export default function Home() {
   return (
     <div className = 'backgroundStyle' style={{backgroundImage: `url('${state.background}')`}}>
       <div className = 'textStyle'>
-      <span>Hello, My name is Frank Zou</span><span>I am an aspiring Full-Stack Web Developer</span>
+      <span>Hello, My name is Frank Zou</span>
+      <span>I am an aspiring Full-Stack Web Developer</span>
+      <button type="button">Find Out More</button>
      </div>
     </div>
   );

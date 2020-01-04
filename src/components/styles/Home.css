@@ -2,11 +2,16 @@
   display: flex; 
   flex-direction: row;
   justify-content: center; 
-  /* background-image: url('https://images.unsplash.com/photo-1492305175278-3b3afaa2f31f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjF9&w=1000&q=80');  */
   height: 588px; 
   background-repeat: no-repeat; 
   background-size: 100%; 
   overflow: hidden; 
+  /* Transitions */
+  -webkit-transition: background 1.5s linear;
+  -moz-transition: background 1.5s linear;
+  -o-transition: background 1.5s linear;
+  -ms-transition: background 1.5s linear;
+  transition: background 1.5s linear;
 }
 
 .textStyle {
