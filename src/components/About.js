@@ -6,14 +6,15 @@ export default function About() {
 
   return (
     <div className='aboutLayout'>
-      <img src={aboutImage} />
-      <div>
+      <div className='aboutImage'>
+        <img src={aboutImage} className='aboutImageSize'/>
+      </div>
+      <div className='aboutText'>
         <h1>
           Who Am I?
         </h1>
         <p>
           I am a aspiring programmer who is passionate about learning and developing innovative ways to solve problems.
-          Previously I was an Electrical Engineer 
         </p>
         <p>
           I am constantly trying to improve my skills. Currently I am playing around with Angular
