@@ -1,4 +1,4 @@
-import React, {useEffect, useReducer} from "react";
+import React, {useEffect, useReducer, useRef} from "react";
 import "./styles/Home.css"
 
 const backgroundImages = [
@@ -19,7 +19,7 @@ function reducer(state, action) {
 
 const initialState = {background: backgroundImages[0]};
 
-export default function Home() {  
+export default function Home({scrollToAbout}) {  
 
   const [state, dispatch] = useReducer(reducer, initialState);
 
@@ -37,9 +37,9 @@ export default function Home() {
   return (
     <div className = 'backgroundStyle' style={{backgroundImage: `url('${state.background}')`}}>
       <div className = 'textStyle'>
-      <span>Hello, My name is Frank Zou</span>
-      <span>I am an aspiring Full-Stack Web Developer</span>
-      <button type="button">Find Out More</button>
+        <span>Hello, My name is Frank Zou</span>
+        <span>I am an aspiring Full-Stack Web Developer</span>
+        <div onClick={scrollToAbout} className="homeButton">Find Out More</div>
      </div>
     </div>
   );
