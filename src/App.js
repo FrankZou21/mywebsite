@@ -9,7 +9,6 @@ const ABOUT = 'ABOUT'
 const PROJECTS = 'PROJECTS'
 const CONTACT = 'CONTACT'
 
-// const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop,)
 const scrollToRef = (ref) => window.scrollTo({
   top: ref.current.offsetTop,
   behavior: 'smooth'
