@@ -24,13 +24,14 @@ function App() {
     <div>
       <Home scrollToAbout = {scrollToAbout}/>
     </div>
-   
+    <div ref={myRef} className="navBarBox">
     <ul className="navBar">
       <em><div className="appButton" onClick = {() => {setDisplay(ABOUT)}}>About</div></em>
       <em><div className="appButton" onClick = {() => {setDisplay(PROJECTS)}}>Projects</div></em>
       <em><div className="appButton" onClick = {() => {setDisplay(CONTACT)}}>Contact</div></em>
     </ul>
-    <div ref={myRef}>
+    </div>
+    <div>
      {display === ABOUT && <About />}
      {display === PROJECTS && <Projects />}
      {display === CONTACT && <Contact />}
