@@ -1,0 +1,63 @@
+.resumeBox {
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+.resumeBtn {
+  display:inline-block;
+  padding:0.35em 1.2em;
+  border:0.1em solid black;
+  margin:20px;
+  border-radius:0.12em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  color: black;
+  text-align:center;
+  transition: all 0.2s;
+  font-size:20px;
+  }
+  .resumeBtn:hover {
+  color: white;
+  background-color: grey;
+  cursor:pointer;
+}
+
+.skillsBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+
+.skillsTitle {
+  text-align: center;
+  font-size: 30px;
+  margin: 30px;
+}
+
+.languagesBox {
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.restSkillsBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.restSkillsInnerBox {
+  display: flex;
+  flex-direction: row;
+}
+
+.skillsList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}

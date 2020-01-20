@@ -18,7 +18,7 @@ export default function About() {
         </p>
         <p>
           I am constantly trying to improve my skills. Currently I am playing around with Angular
-           and Python. I am skilled in a variety of areas in web design and development. Some of my skills include: 
+           and React. I am skilled in a variety of areas in web design and development. Some of my skills include: 
         </p>
         <ul>
           <li>HTML</li>

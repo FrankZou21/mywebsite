@@ -1,0 +1,9 @@
+.footer {
+  background-color: black;
+  text-align: center;
+}
+
+.footerIcons {
+  padding:20px;
+  cursor: pointer;
+}

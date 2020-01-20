@@ -76,9 +76,8 @@ export default function Home({scrollToAbout}) {
   
   return (
     <div className = 'backgroundStyle' style={{backgroundImage: `url('${state.background}')`}}>
-      <div className = 'textStyle'>
-        <span>Hello, My name is Frank Zou</span>
-        <span>I am an aspiring Full-Stack Web Developer</span>
+      <div className = 'textBoxStyle'>
+        <div className = 'textStyle'>Hello, My name is Frank Zou<br/>I am an aspiring Full-Stack Web Developer</div>
         <div onClick={scrollToAbout} className="homeButton">Find Out More</div>
      </div>
     </div>

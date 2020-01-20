@@ -5,7 +5,7 @@ import Popup from "reactjs-popup";
 
 export default function Project({ name, background, description, image, link }) {
   const [index, setIndex] = useState(0);
-
+  
   return (
     <div className="projectBox" style={{backgroundImage: `url('${background}')`}}>
       <div className="projectTitle">

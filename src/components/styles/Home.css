@@ -14,11 +14,32 @@
   transition: background 1.5s linear;
 }
 
-.textStyle {
+.textBoxStyle {
   display: flex; 
   flex-direction: column;
   justify-content: center;
   align-items: center; 
+}
+
+.textStyle {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin: 20px;
+  /* text-shadow:
+      0.07em 0 black,
+      0 0.07em black,
+      -0.07em 0 black,
+      0 -0.07em black; */
+      text-shadow:
+      0.05em 0 black,
+      0 0.05em black,
+      -0.05em 0 black,
+      0 -0.05em black,
+      -0.05em -0.05em black,
+      -0.05em 0.05em black,
+      0.05em -0.05em black,
+      0.05em 0.05em black;  
 }
 
 @media only screen and (max-width: 843px) {

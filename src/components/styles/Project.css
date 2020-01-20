@@ -12,7 +12,30 @@
   background-repeat: no-repeat;
   text-align: center;
   position: relative;
+  /* transition: all .2s ease-in-out; */
 }
+
+/* .projectBox:hover {
+  transform: scale(1.1);
+} */
+
+.projectBoxClicked {
+  padding: 20px;
+  border: 1px solid black;
+  box-shadow: 10px 5px 5px black;
+  width: 25%;
+  height: 300px;
+  margin: 20px;
+  display: flex; 
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  position: relative;
+  transition: all .2s ease-in-out;
+}
+
 
 .projectTitle {
   font-family: 'Quicksand', sans-serif;
@@ -74,7 +97,7 @@
 .modal {
   font-size: 12px;
   max-height: 90vh;
-  overflow-y: auto
+  overflow-y: auto;
 }
 .modal > .header {
   width: 100%;
@@ -82,6 +105,7 @@
   font-family: "Comic Sans MS";
   text-align: center;
   padding: 10px;
+  color: black;
 }
 .modal > .content {
   width: 100%;
@@ -90,8 +114,6 @@
 }
 .modal > .actions {
   width: 100%;
-  /* padding: 10px 5px; */
-  /* margin: auto; */
   text-align: center;
   cursor: pointer;
 }
