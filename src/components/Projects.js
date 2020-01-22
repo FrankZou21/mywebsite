@@ -21,7 +21,7 @@ const projects = [
     name: "ToDoProject",
     background: "https://images.pexels.com/photos/1059383/pexels-photo-1059383.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     description: "To-Do List is a multi-page full stack web app that allows the user to register, login and update a To- Do list based on four categories - places to eat, products to buy, films to watch, and books to read. The app makes use of 4 diGerent API's to access information on the search parameter provided by the user to update the correct category on the list.",
-    image: [],
+    image: ["https://github.com/FrankZou21/ToDoProject/raw/master/docs/Login.png?raw=true", "https://github.com/FrankZou21/ToDoProject/raw/master/docs/Main_Page.png?raw=true", "https://github.com/FrankZou21/ToDoProject/raw/master/docs/Search.png?raw=true", "https://github.com/FrankZou21/ToDoProject/raw/master/docs/Result.png?raw=true"],
     link: "https://github.com/FrankZou21/ToDoProject"
   },
   {
