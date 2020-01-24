@@ -1,0 +1,14 @@
+.languageCircle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  padding: 10px;
+  border: 1px solid  grey;
+  margin: 5px;
+}
+
+.languageText {
+  text-align: center;
+  vertical-align: text-bottom;
+  line-height: 80px;
+}
